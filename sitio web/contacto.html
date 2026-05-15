@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - MysticRoots</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-container">
+        <img src="img/logo2.jpeg" class="logo" alt="Logo">
+        <h1>MysticRoots</h1>
+    </div>
+
+    <button id="menu-btn" class="menu-btn">☰</button>
+
+    <div id="overlay" class="overlay"></div>
+
+    <nav id="sideMenu" class="side-menu">
+        <a href="index.html">Inicio</a>
+        <a href="Nosotros.html">Quiénes Somos</a>
+        <a href="beneficios.html">Beneficios</a>
+        <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+
+</header>
+
+<!-- MAIN -->
+
+<main class="contacto-main">
+
+    <!-- HERO -->
+
+    <section class="hero-contacto">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <h2>Conecta con MysticRoots</h2>
+
+            <p>
+                Estamos aquí para ayudarte y acompañarte
+                en tu experiencia espiritual y natural.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section class="contacto-section">
+
+        <div class="contacto-card">
+
+            <h2>Envíanos un mensaje</h2>
+
+            <form class="contacto-form" id="formContacto">
+
+                <div class="input-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">
+                    Enviar Mensaje
+                </button>
+
+            </form>
+
+            <p id="confirmacion"></p>
+
+        </div>
+
+        <!-- REDES -->
+
+        <div class="redes-card">
+
+            <h3>Síguenos</h3>
+
+            <p>
+                Encuentra contenido espiritual,
+                bienestar y novedades en nuestras redes sociales.
+            </p>
+
+            <div class="redes-sociales">
+
+                <a href="https://www.facebook.com/share/18UoLbdGTo/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/mysticrootsco?igsh=MW40bXVqbWtyejYwaw==" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://wa.me/51961879945" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="js/script.js"></script>
+
+<script src="js/contacto.js"></script>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <p>
+        <b>MysticRoots</b> — Productos Naturales y Espirituales
+    </p>
+
+    <div class="footer-redes">
+
+        <a href="https://www.instagram.com/mysticrootsco?igsh=MW40bXVqbWtyejYwaw==" target="_blank">
+            Instagram
+        </a>
+
+    </div>
+
+    <p class="footer-copy">
+        © <span id="anio"></span> MysticRoots
+    </p>
+
+</footer>
+
+</body>
+</html>
